@@ -1,0 +1,12 @@
+version: '3'
+services:
+  webserver:
+    build: node
+    image: node-dev:1.0
+    container_name: node
+    tty: true
+    volumes:
+      - ./node/app:/app
+    ports:
+      - "3000:3000"
+      - "9005:9005"
