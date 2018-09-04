@@ -16,3 +16,5 @@ const port = process.env.PORT || 3000
 ```
 
 ## usage
+There are 3 pages
+![image](https://user-images.githubusercontent.com/20606017/45009599-000e4500-b044-11e8-9881-a36d2c465cb1.gif)
